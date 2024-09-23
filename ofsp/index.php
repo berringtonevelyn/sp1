@@ -3,8 +3,8 @@
 $HCSET['PASSIVE'] = false;
 
 /* Required settings     */
-$HCSET['OFFER_PAGE'] = 'https://nancygracy.lol/';//PHP/HTML file or URL offer used for real users
-$HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
+$HCSET['OFFER_PAGE'] = 'https://sky-goods.com/hondrosol/es/buy1/?flow=12106';//PHP/HTML file or URL offer used for real users
+$HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
 
 /* OFFER_PAGE display method. Available options: meta, 302, iframe */
 /* 'redirect' -  Redirect visitors using JS location.href (best method if the goal is maximum transitions).*/
@@ -16,7 +16,7 @@ $HCSET['OFFER_METHOD'] = 'iframe';
 
 /* COUNTRY FILTERS */
 $HCSET['FILTER_GEO_MODE'] = 'allow'; // string(allow|reject)
-$HCSET['FILTER_GEO_LIST'] = 'KZ,RU'; // string([2Chars country codes])
+$HCSET['FILTER_GEO_LIST'] = 'ES,RU'; // string([2Chars country codes])
 
 /* DEVICE FILTERS */
 $HCSET['FILTER_DEV_MODE'] = ''; // 'allow|reject'
